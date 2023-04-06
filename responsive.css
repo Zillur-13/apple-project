@@ -1,0 +1,234 @@
+.check-box{
+    opacity: 0;
+}
+.icon{
+    opacity: 0;
+}
+
+@media screen and (max-width: 1200px){
+    .section-img img {
+        width: 150px;
+        height: 139px;
+        top: -31px;
+        margin-left: -67px;
+    }
+    .section-menu ul li a {
+        font-size: 16px;
+        padding: 0px 0px;
+        line-height: 56px;
+    }
+    .second-part-content h3 {
+        line-height: 1.9rem;
+        font-size: 16px;
+        margin-bottom: 27px !important;
+    }
+    .second-part-content p {
+        font-size: 14px;
+        margin-bottom: 30px !important;
+    }
+
+   
+}
+
+@media screen and (max-width: 770px){
+    .section-menu ul li a {
+        font-size: 14px;
+        padding: 0px 0px;
+        line-height: 52px;
+    }
+    .section-menu ul li {
+        list-style: none;
+        padding: 0px 10px;
+    }
+    .card.shadow {
+        margin-bottom: 42px;
+    }
+    .apple-content p {
+        font-size: 15px;
+        text-align: center;
+        text-align: justify;
+    }
+    .apple-content p {
+        text-align: center;
+        text-align: justify;
+    }
+    .sorabo {
+        text-align: center;
+    }
+    .left-apple-img img {
+        margin-left: 52px;
+    }
+    .price {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .section-img img{
+        width: 120px;
+        height: 120px;
+        display: block;
+        margin: auto;
+        margin-left: 35%;
+    }
+    .section-menu ul {
+        margin-right: 0%;
+    }
+    .section-menu ul li {
+        padding: 0px 0px;
+        margin-top: 67px;
+
+    }
+    .second-part-button {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .section-menu ul li a {
+        font-size: 16px;
+        padding: 4px 11px;
+        line-height: 52px;
+    }
+    .card.shadow {
+        margin-bottom: 42px;
+    }
+    .apple-content h2 {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .sorabo {
+        text-align: center;
+    }
+    .left-apple-img img {
+        margin-left: 52px;
+    }
+    .price {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 485px){
+    .section-menu ul li a {
+        font-size: 15px;
+        padding: 1px 6px;
+        margin-top: -72px;
+    }
+
+    .section-menu .check-box:checked ~ ul{
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+    }
+
+    .section-menu ul{
+        display: block;
+       
+    }
+  
+    .icon {
+        font-size: 30px;
+        margin-top: 67px;
+        margin-left: -28px;
+        pointer-events: none;
+        opacity: 1;
+      
+    }
+    .section-menu ul{
+        opacity: 0;
+        visibility: hidden;
+
+    }
+    .check-box{
+        height: 20px;
+        width: 20px;
+        opacity: 0;
+        
+    }
+    .second-part-content h3 {
+        font-size: 15px;
+        text-align: center;
+    }
+    .second-part-content p {
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 40px !important;
+    }
+    .second-part-button {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .border-radious {
+        margin-left: -31px;
+        text-align: center;
+    }
+    .card.shadow {
+        margin-bottom: 42px;
+    }
+    .card-title h5 {
+        font-size: 15px;
+    }
+    .card-title h6 {
+        font-size: 14px;
+    }
+    .card-title p {
+        font-size: 16px;
+
+    }
+    .apple-content h2 {
+        text-align: center;
+        margin-top: 13px;
+        font-size: 23px;
+    }
+    .apple-content p {
+        font-size: 11px;
+        text-align: center;
+        text-align: justify;
+    }
+    .sorabo {
+        text-align: center;
+    }
+    .price {
+        font-size: 15px;
+    }
+    .accoroding-content h3 {
+        font-size: 19px;
+
+    }
+    .even-top-content h2 {
+        font-size: 24px;
+    }
+    .even-top-content p {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .event-left-content h2 {
+        font-size: 20px;
+    }
+    .lorem-line-height {
+        font-size: 13px;
+    }
+    .event-middle-img a {
+        margin-top: 20px !important;
+    }
+    .event-left-content {
+        margin-top: 30px;
+    }
+    .event-left-content h2 {
+        font-size: 15px;
+    }
+    .subcribe-to-the-newsletter h1 {
+        font-size: 22px;
+    }
+    .subcribe-to-the-newsletter p {
+        font-size: 12px;
+        margin-top: 19px !important;
+    }
+    .footer-content p {
+        font-size: 13px;
+    }
+    .footer-social-icons {
+        margin-left: 88px;
+    }
+    .last-footer p {
+        font-size: 13px;
+    }
+}

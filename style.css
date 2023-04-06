@@ -1,0 +1,348 @@
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+img{
+    max-width: 100%;
+    height: 300px;
+}
+
+.background{
+    box-shadow: 8px 13px 6px rgb(252, 250, 250);
+}
+.section-img img{
+    width: 170px;
+    height: 170px;
+    top: -55px;
+    position: absolute;
+    margin-left: 39px;
+}
+.section-menu{}
+.section-menu ul{
+    display: flex;
+    justify-content: end;
+}
+.section-menu ul li{
+    list-style: none;
+    padding: 0px 20px;
+    
+}
+.section-menu ul li a {
+	display: block;
+	color: black;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: capitalize;
+	text-decoration: none;
+	padding: 0px 9px;
+	line-height: 52px;
+	transition: .3s;
+}
+
+.section-menu ul li :hover{
+  color:red;
+}
+
+.border-radious{
+   border-radius: 10px;
+   box-shadow: 18px 13px 6px rgb(252, 250, 250);
+}
+
+.second-part-content{
+    margin-left: 60px;
+}
+.second-part-content p{
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.second-part-content h3{
+  text-transform: capitalize;
+  line-height: 2.9rem;
+}
+
+.button{
+  position: relative;
+  z-index: 1; 
+}
+.button::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: black;
+    border-color: black;
+    z-index: -1;
+    transition: .3s;
+   
+}
+
+.button:hover:after{
+    width: 100%;
+} 
+
+/* card-section */
+
+.background-color-fixed{
+   background-color: aliceblue;
+}
+
+.brand h3{
+    color: red;
+    transition: .3s;
+}
+
+.brand h3:hover{
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.card-title h4{
+    font-weight: 700;
+    transition: .3s;
+}
+.card-title h4:hover{
+  letter-spacing: 2px;
+  cursor: pointer;
+  
+}
+.card-title h5{
+    text-transform: capitalize;
+    transition: .3s;
+}
+.card-title h5:hover{
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.card-title h6{
+    font-weight: 700;
+    transition: .3s;
+}
+.card-title h6:hover{
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.card-title p{
+   font-weight: 700;
+   font-size: 20px;
+   transition: .3s;
+}
+.card-title p:hover{
+    letter-spacing: 2px;
+    color: rgb(238, 7, 7);
+}
+
+.b-custom{
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+
+/* thirs section apple and content */
+
+.left-apple-img img{
+    border-radius: 10px;
+}
+
+.apple-content p{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+/* second-card */
+
+.transition-item{
+    transition: .3s;
+   
+}
+.transition-item:hover{
+    transform: translateY(-10px);
+}
+.second-card h2{
+    font-weight: 700;  
+    transition: .3s;
+}
+.second-card h2:hover{
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: darkblue;
+}
+.oranges{
+   color: rgb(241, 5, 5);
+   line-height: 1.7rem;
+}
+.price{
+    font-size: 25px;
+    font-weight: 700px;
+    transition: .3s;
+}
+
+.price:hover{
+    letter-spacing: 2px;
+    color: rgb(128, 133, 121);
+}
+
+/* accoroding-content */
+
+.accoroding-content h3{
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+
+/* our event section */
+.subcribe{
+    background: #f1f1f1;
+}
+.even-top-content h2{
+  font-size: 35px;
+  color: black;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  cursor: pointer;
+
+}
+
+.even-top-content p{
+    font-weight: 600;
+}
+
+.event-middle-img a{
+  width: 50%;
+  height: auto;
+  border-radius: 20px;
+  margin-top: 50px;
+    
+}
+.event-left-content h2{
+    line-height:2.7rem;;
+}
+.event-left-content{
+    margin-left: 30px;
+} 
+
+.lorem-line-height{
+    line-height: 1.9rem;
+}
+
+.form-section input{
+    margin-left: 50px;
+    height: 50px;
+    width: auto;
+}
+
+
+
+/* footer section */
+
+
+.footer-section{
+    background-color: black;
+    color: white;
+  }
+  .border-dibo{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 7%;
+    /* border-top: 10px; */
+  }
+  
+  .footer-content p{
+    line-height: 1.9rem;
+    font-weight: 500;
+  }
+  .footer-social-icons ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+    
+  
+  }
+  .footer-social-icons ul li{
+   padding: 0px 10px;
+  }
+  .footer-social-icons ul li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 1px 1px 8px white,
+               -1px 1px 8px gray;
+  }
+  
+  
+  .footer-content h4{
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid gray;
+    transition: .4s;
+  }
+  
+  .footer-widge h4{
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid gray;
+    transition: .4s;
+  }
+  .footer-widge h4:hover{
+    letter-spacing: 2px;
+    color: greenyellow;
+  } 
+  .footer-content h4:hover{
+     letter-spacing: 2px;
+     color: greenyellow;
+  }
+  
+  .footer-social-icon ul{
+    list-style: none;
+  }
+  .footer-social-icon ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 7px 0px;
+    transition: .4s;
+  }
+  
+  .footer-social-icon ul li a:hover{
+    color: #ce2729;
+    letter-spacing: 2px;
+  }
+  
+  /* footer-social-icon-befor */
+  
+
+  .footer-contact-item span{
+    display: inline-block;
+    margin-right: 15px;
+  
+  }
+  .footer-contact-item span i{
+    font-size: 22px;
+    margin-top: 12px;
+  }
+  .footer-contact-item a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 7px 0px;
+  }
+  .last-footer p{
+    transition: .3s;
+    font-size: 20px;
+  }
+  .last-footer p:hover{
+    letter-spacing: 2px;
+    color: lime;
+    cursor: pointer;
+  }
